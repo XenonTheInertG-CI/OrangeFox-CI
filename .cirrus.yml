@@ -1,0 +1,34 @@
+env:
+    # OrangeFox Sync Repository
+    FOX_SYNC: https://gitlab.com/OrangeFox/sync.git
+
+    # Config
+    CONFIG: config.sh
+
+    # Telegram
+    TG_CHAT_ID: -1001595569305
+    TG_TOKEN: 
+
+    # Cirrus Specific Vars (Do *NOT* Change)
+    CIRRUS_SHELL: bash
+
+task:
+  name: "Recovery Build"
+  timeout_in: 120m
+  container:
+      image: ghcr.io/xenontheinertg/docker:latest
+      cpu: 8
+      memory: 20G
+
+  Checks_script:
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/checks.sh | bash
+
+  Sync_script:
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/sync.sh | bash
+
+  Build_script:
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/build.sh | bash
+
+  Upload_script:
+      - export TIMEOUT=43200 # Link timeout (in minutes)
+      - curl https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/upload.sh | bash
