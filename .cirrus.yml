@@ -21,14 +21,14 @@ task:
       memory: 20G
 
   Checks_script:
-      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/checks.sh | bash
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/scripts/checks.sh | bash
 
   Sync_script:
-      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/sync.sh | bash
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/scripts/sync.sh | bash
 
   Build_script:
-      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/build.sh | bash
+      - curl -sL https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/scripts/build.sh | bash
 
   Upload_script:
       - export TIMEOUT=43200 # Link timeout (in minutes)
-      - curl https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/fox/scripts/upload.sh | bash
+      - curl https://raw.githubusercontent.com/XenonTheInertG-CI/OrangeFox-CI/scripts/upload.sh | bash
