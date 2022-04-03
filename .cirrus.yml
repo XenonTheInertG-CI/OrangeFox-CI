@@ -16,7 +16,7 @@ task:
   name: "OrangeFox CI"
   timeout_in: 120m
   container:
-      image: xenontheinertg/docky:latest
+      image: ghcr.io/sushrut1101/docker:latest
       cpu: 8
       memory: 20G
       
