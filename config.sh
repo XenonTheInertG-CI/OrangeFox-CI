@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/zeelog/device_mido_twrp.git -b android-12.1"
 
-export DEVICE="ares"
+export DEVICE="mido"
 export OEM="xiaomi"
-export TARGET="bootimage"
+export TARGET="recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
@@ -16,7 +16,7 @@ export OUTPUT="OrangeFox*.zip"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
 
 # Extra Command
-export EXTRA_CMD="git clone https://github.com/OrangeFoxRecovery/Avatar.git misc"
+export EXTRA_CMD=""
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
