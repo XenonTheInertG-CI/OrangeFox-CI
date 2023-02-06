@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/menorziin/android_device_motorola_liber-twrp.git -b fox_12.1"
 
-export DEVICE="ares"
-export OEM="xiaomi"
-export TARGET="bootimage"
+export DEVICE="liber"
+export OEM="motorola"
+export TARGET="recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
