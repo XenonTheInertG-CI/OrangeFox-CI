@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Device
+# Device 
 export FOX_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/rinto02/android_device_realme_rmx2020-pbrp.git -b android-12.1"
 
