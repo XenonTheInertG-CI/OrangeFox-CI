@@ -4,11 +4,11 @@
 export FOX_BRANCH="fox_12.1"
 export DT_LINK="https://github.com/rinto02/android_device_realme_rmx2020-pbrp.git -b android-12.1"
 
-export DEVICE="rmx2020"
+export DEVICE="RMX2020"
 export OEM="realme"
 export TARGET="recoveryimage"
 export OF_MAINTAINER="Rinto"
-
+export FOX_BUILD_TYPE="eng"
 export OUTPUT="OrangeFox*.zip"
 
 # Kernel Source
