@@ -8,7 +8,7 @@ export DEVICE="bahamut_kddi"
 export OEM="sony"
 export TARGET="bootimage"
 
-export OUTPUT="OrangeFox*.zip"
+export OUTPUT="boot.img"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
