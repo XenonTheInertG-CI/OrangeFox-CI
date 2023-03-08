@@ -2,13 +2,13 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export DT_LINK="https://github.com/plente00/android_device_sony_bahamut_kddi.git -b a11"
 
-export DEVICE="ares"
-export OEM="xiaomi"
+export DEVICE="bahamut_kddi"
+export OEM="sony"
 export TARGET="bootimage"
 
-export OUTPUT="OrangeFox*.zip"
+export OUTPUT="boot.img"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
