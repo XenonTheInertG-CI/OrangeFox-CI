@@ -15,6 +15,9 @@ export OUTPUT="OrangeFox*.zip"
 #export KERNEL_SOURCE="https://gitlab.com/OrangeFox/kernel/mojito.git"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
 
+# Extra Command
+export EXTRA_CMD="git clone https://github.com/OrangeFoxRecovery/Avatar.git misc"
+
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
 export USE_CCACHE=1
