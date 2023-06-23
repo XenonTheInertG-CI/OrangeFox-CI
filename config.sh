@@ -2,10 +2,10 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export DT_LINK="https://github.com/IMYdev/twrp_device_infinix_X6816.git -b R11"
 
-export DEVICE="ares"
-export OEM="xiaomi"
+export DEVICE="X6816"
+export OEM="infinix"
 export TARGET="bootimage"
 
 export OUTPUT="OrangeFox*.zip"
@@ -14,9 +14,6 @@ export OUTPUT="OrangeFox*.zip"
 # Uncomment the next line if you want to clone a kernel source.
 #export KERNEL_SOURCE="https://gitlab.com/OrangeFox/kernel/mojito.git"
 #export PLATFORM="sm6150" # Leave it commented if you want to clone the kernel to kernel/$OEM/$DEVICE
-
-# Extra Command
-export EXTRA_CMD="git clone https://github.com/OrangeFoxRecovery/Avatar.git misc"
 
 # Not Recommended to Change
 export SYNC_PATH="$HOME/work" # Full (absolute) path.
