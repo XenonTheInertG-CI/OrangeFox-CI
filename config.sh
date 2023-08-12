@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/axsrog/ofox.git -b fox_11.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/axsrog/ofox.git -b fox_12.1"
 
 export DEVICE="mojito"
 export OEM="xiaomi"
