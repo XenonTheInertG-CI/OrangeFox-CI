@@ -75,7 +75,7 @@ if [ $(echo $SYNC_BRANCH | cut -d. -f1) -le 6 ]; then
 fi
 
 # lunch the target
-if [ "$FOX_BRANCH" = "fox_11.0" ]; then
+if [ "$FOX_BRANCH" = "fox_12.1" ]; then
     lunch twrp_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
 else
     lunch omni_${DEVICE}-eng || { echo "ERROR: Failed to lunch the target!" && exit 1; }
