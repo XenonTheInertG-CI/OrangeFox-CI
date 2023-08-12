@@ -2,11 +2,11 @@
 
 # Device
 export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export DT_LINK="https://github.com/axsrog/ofox.git -b fox_11.0"
 
-export DEVICE="ares"
+export DEVICE="mojito"
 export OEM="xiaomi"
-export TARGET="bootimage"
+export TARGET="vendorbootimage"
 
 export OUTPUT="OrangeFox*.zip"
 
