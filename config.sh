@@ -9,6 +9,7 @@ export OEM="xiaomi"
 export TARGET="vendorbootimage"
 
 export OUTPUT="OrangeFox*.zip"
+echo "yo"
 
 # Kernel Source
 # Uncomment the next line if you want to clone a kernel source.
