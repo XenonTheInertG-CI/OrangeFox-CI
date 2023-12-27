@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_11.0"
-export DT_LINK="https://github.com/clhexareslab/recovery_device_xiaomi_ares.git -b fox_11.0"
+export FOX_BRANCH="fox_12.1"
+export DT_LINK="https://github.com/marat2509/twrp_device_xiaomi_sweet_k6a -b fox_12.1"
 
-export DEVICE="ares"
+export DEVICE="sweet_k6a"
 export OEM="xiaomi"
-export TARGET="bootimage"
+export TARGET="adbd recoveryimage"
 
 export OUTPUT="OrangeFox*.zip"
 
